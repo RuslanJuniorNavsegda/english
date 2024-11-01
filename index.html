@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <header>
+        <h1>Study English</h1>
+        <p>Введите слово на русском, перевод и дату добавления:</p>
+    </header>
+
+    <main>
+        <div class="input-form">
+            <input type="text" id="russianWord" placeholder="Слово на русском" required>
+            <input type="text" id="englishWord" placeholder="Перевод на английский" required>
+            <input type="date" id="dateAdded" required>
+            <button id="addWordButton">Добавить слово</button>
+        </div>
+        
+        <div class="words-list">
+            <h2>Слова для изучения:</h2>
+            <ul id="wordsOutput"></ul>
+        </div>
+    </main>
+    
+    <script src="script.js"></script>
+</body>
+</html>
